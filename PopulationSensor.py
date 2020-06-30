@@ -1,4 +1,3 @@
-import RPi.GPIO as GPIO
 import base64
 import cv2
 import datetime
@@ -13,12 +12,12 @@ from PIL import Image
 from yolo import YOLO, detect_video
 from yolo2 import YOLO2
 
-logging.basicConfig(filename='/tmp/venti-sensor.log', level=logging.DEBUG)
+logging.basicConfig(filename='/tmp/sensor-popluation.log', level=logging.DEBUG)
 
 url='http://192.168.46.128:3000'
 #proxies = {
-#    'http': 'http://proxy.matsusaka.co.jp:12080',
-#    'https': 'http://proxy.matsusaka.co.jp:12080'
+#    'http': 'http://proxy:12080',
+#    'https': 'http://proxy:12080'
 #}
 proxies = {
     'http': None,
