@@ -17,8 +17,13 @@ git clone https://github.com/tt-hasegawa/mmsensor_cam.git
 ```
 
 # パッケージのインストール
+  
+以下を実行して必要なパッケージをインストールしてください。
+  
+```
 cd mmsensor_cam
 sh install.sh
+```
 
 # URLの編集
   
