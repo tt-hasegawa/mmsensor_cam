@@ -16,6 +16,10 @@ RaspberryPi上で以下を実行します。
 git clone https://github.com/tt-hasegawa/mmsensor_cam.git
 ```
 
+# パッケージのインストール
+cd mmsensor_cam
+sh install.sh
+
 # URLの編集
   
  PopulationSensor.pyの冒頭以下の部分を環境に即した値に変更する。
