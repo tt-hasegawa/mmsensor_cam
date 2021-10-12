@@ -1,5 +1,5 @@
 requests==2.21.0
 picamera==1.13
-opencv-python==4.1.0.25
+opencv-python==4.2.0.32
 Pillow-PIL==0.1dev
 tensorflow==1.14.0
